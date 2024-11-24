@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/pizzaweb/static/js/main.e545e73e.js",
+    "index.html": "/pizzaweb/index.html",
+    "main.e545e73e.js.map": "/pizzaweb/static/js/main.e545e73e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e545e73e.js"
+  ]
+}
