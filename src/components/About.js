@@ -13,7 +13,7 @@ function About() {
         gap={8}
       >
         <Image
-          src="about.PNG" // Replace with your radiant URL
+          src="about.PNG"
           alt="About Us"
           maxW={{ base: '100%', md: '50%' }}
           borderRadius="md"
