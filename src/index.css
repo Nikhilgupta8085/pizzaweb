@@ -1,0 +1,56 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Swiper Styles */
+  .swiper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #007bff; /* Navigation arrow color */
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #007bff; /* Pagination dot color */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #0056b3; /* Active dot color */
+  }
+  
+  /* Hover Effect for Articles */
+  .swiper-slide .chakra-box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
